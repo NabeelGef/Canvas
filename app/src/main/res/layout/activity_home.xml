@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myDrawer"
+    android:background="@drawable/backgroun_chat"
+    tools:context=".Home">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ChatApp"
+                android:gravity="center"
+                android:textSize="45dp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250sp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="650dp"
+                android:id="@+id/recycler_Home"/>
+            </RelativeLayout>
+            </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:itemTextColor="#ffa500"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/your_profile"
+        app:menu="@menu/home_navigation" />
+</androidx.drawerlayout.widget.DrawerLayout>

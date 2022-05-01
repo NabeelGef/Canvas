@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "840741691386",
+    "firebase_url": "https://fir-nabeel-default-rtdb.firebaseio.com",
+    "project_id": "fir-nabeel",
+    "storage_bucket": "fir-nabeel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840741691386:android:3f639586e367742a4ece43",
+        "android_client_info": {
+          "package_name": "com.example.canvas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840741691386-fveasflb3r3gf6p5p8li20rt3po7npm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMpeu0eOs_XbzkGd79SBm-j0CzlkjD2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840741691386-fveasflb3r3gf6p5p8li20rt3po7npm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840741691386:android:87556258713bae6e4ece43",
+        "android_client_info": {
+          "package_name": "com.example.controlpanalamal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840741691386-fveasflb3r3gf6p5p8li20rt3po7npm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMpeu0eOs_XbzkGd79SBm-j0CzlkjD2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840741691386-fveasflb3r3gf6p5p8li20rt3po7npm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840741691386:android:28f6f01c08ef9ad64ece43",
+        "android_client_info": {
+          "package_name": "com.example.firebasenabeel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840741691386-hpahn9gluod2uefd6m2in6nkqi62rv02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasenabeel",
+            "certificate_hash": "ef8ebc34b3cae0909f8577f1323d687c7eb51a0c"
+          }
+        },
+        {
+          "client_id": "840741691386-fveasflb3r3gf6p5p8li20rt3po7npm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVMpeu0eOs_XbzkGd79SBm-j0CzlkjD2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840741691386-fveasflb3r3gf6p5p8li20rt3po7npm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
